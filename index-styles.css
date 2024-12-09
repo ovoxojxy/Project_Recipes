@@ -1,0 +1,37 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+h1{
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 1000px;
+    /* padding-top: 0; */
+    /* padding: 10px; */
+    /* box-shadow: 0 2px 5px rgba(0,0,0, 0.1);; */
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    line-height: 1.5;
+}
+
+a {
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 22px;
+    color:black;
+}
+
